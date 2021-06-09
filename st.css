@@ -1,0 +1,51 @@
+.addcart{
+    background: linear-gradient(to right, #614385 , #516395);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 22%;
+    height: 10rem;
+    position: fixed;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .5rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s linear;
+}
+.addcart__text{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.checkadd{
+    padding-right: 1rem;
+}
+.addcart__buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.addcart__btn{
+    outline: none;
+    padding: .5rem 1rem;
+    border: none;
+}
+.addcart__btn:hover{
+    cursor: pointer;
+}
+.menu__middle__top__cart{
+    transition: all .3s linear;
+}
+.menu__middle__top__cart:hover{
+    cursor: pointer;
+    color: #f229c1;
+}
+.display{
+    visibility: visible;
+    opacity: 1;
+}
